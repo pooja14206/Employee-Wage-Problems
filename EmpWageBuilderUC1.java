@@ -35,7 +35,7 @@ public class EmpWageBuilderUC1 {
 			int Daily_Employee_Wage = Wage_Per_Hr * Working_Hr;
 
 			Total_Wage += Daily_Employee_Wage;
-			System.out.println( day + "\t" + Working_Hr + "\t"  +Daily_Employee_Wage + "\t" + Total_Working_Hrs);
+			System.out.println( day + "\t \t" + Working_Hr + "\t \t "  +Daily_Employee_Wage + "\t \t \t" + Total_Working_Hrs);
 		}
 		System.out.println("Total Wage of a month: " + Total_Wage);
 
